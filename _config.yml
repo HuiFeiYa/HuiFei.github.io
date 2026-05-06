@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 会飞的博客
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: '专注全栈开发，热衷技术实践与开源分享'
+keywords: 全栈开发, Vue3, Electron, NestJS, 前端, 后端
+author: 会飞
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://huifeiya.github.io
 root: /HuiFei.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
