@@ -831,42 +831,16 @@ body {
         display: block;
     }
 
+    .logo span {
+        font-size: 16px;
+    }
+
     .hero-content {
         flex-direction: column;
         text-align: center;
         gap: 40px;
     }
 
-    .hero-text h1 {
-        font-size: 36px;
-    }
-
-    .tags {
-        justify-content: center;
-    }
-
-    .section-title {
-        font-size: 28px;
-    }
-
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .content-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .toolbox-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
     .hero-text h1 {
         font-size: 32px;
     }
@@ -880,12 +854,143 @@ body {
         font-size: 14px;
     }
 
+    .tags {
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-tabs {
+        gap: 10px;
+    }
+
+    .tab-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .toolbox-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .qr-code img {
+        max-width: 140px;
+        max-height: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo span {
+        font-size: 14px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .cta-button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 25px 20px;
+    }
+
     .stat-number {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contact-card {
+        padding: 30px 20px;
+    }
+
+    .qr-code img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .mini-qr-card {
+        padding: 20px;
+    }
+
+    .qr-code-large img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .stats, .content, .contact {
+        padding: 50px 15px;
     }
 
     .toolbox-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .tag {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .cta-button {
+        padding: 10px 24px;
+        font-size: 13px;
+    }
+
+    .stats, .content, .contact {
+        padding: 40px 10px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-content {
+        padding: 15px;
     }
 }
 
