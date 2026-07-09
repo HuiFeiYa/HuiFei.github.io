@@ -1,9 +1,0 @@
-url: https://HuifeiYa.github.io
-public_dir: public
-
-theme: landscape
-
-deploy:
-  type: git
-  repo: https://github.com/HuiFeiYa/HuiFei.github.io.git
-  branch: master
